@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8315908473736868520
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
 --- !u!21 &2100000
 Material:
   serializedVersion: 6
@@ -7,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Arbol
+  m_Name: Cesped
   m_Shader: {fileID: -6465566751694194690, guid: 52153e046ee14e94c880ec749bfeeb0e,
     type: 3}
   m_ShaderKeywords: 
@@ -21,19 +34,15 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_10542FD7:
-        m_Texture: {fileID: 2800000, guid: 24094b21e9387544a856db4ff19d7658, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - Texture2D_124623E9:
-        m_Texture: {fileID: 2800000, guid: fbc84e5333f2b2347b0c653dd64d3663, type: 3}
+        m_Texture: {fileID: 2800000, guid: c3bc9b3e3465e104ba3042661dff9938, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_8A97B9C0:
-        m_Texture: {fileID: 2800000, guid: f452717d764cbd9408cb88d05bba1696, type: 3}
+        m_Texture: {fileID: 2800000, guid: 9d93e9f6807c5024796d978c2113e667, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_9620D109:
-        m_Texture: {fileID: 2800000, guid: fbc84e5333f2b2347b0c653dd64d3663, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1486e60a24784d44180aa5e25afdde65, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -87,21 +96,7 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_52985A46: {r: 0.99056596, g: 0.99056596, b: 0.99056596, a: 0}
     - _BaseColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
---- !u!114 &6585583654350009876
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 1
