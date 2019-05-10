@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Plantas
+  m_Name: Tierra
   m_Shader: {fileID: -6465566751694194690, guid: 63cfde471f3d482468b596f0820bbb28,
     type: 3}
   m_ShaderKeywords: 
@@ -21,7 +21,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_27645474:
-        m_Texture: {fileID: 2800000, guid: 9d93e9f6807c5024796d978c2113e667, type: 3}
+        m_Texture: {fileID: 2800000, guid: 6738f671721b3274abb117af0120d361, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_67901FBC:
