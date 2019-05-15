@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Pelota
-  m_Shader: {fileID: -6465566751694194690, guid: 06da5cb810d3e1941a387764ad1c1c5a,
+  m_Shader: {fileID: -6465566751694194690, guid: 6b21afb5c3a2ef744986d71556b6f5ed,
     type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -66,6 +66,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Vector1_C285C274: 0
+    - _Albedo: 0
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
