@@ -14,6 +14,9 @@ public class Cabana : MonoBehaviour
     [SerializeField]
     Slider _B;
 
+    [SerializeField]
+    Slider _NormalAmount;
+
     private void Start()
     {
         render = GetComponent<Renderer>();
@@ -25,6 +28,7 @@ public class Cabana : MonoBehaviour
         render.material.SetFloat("_R", _R.value);
         render.material.SetFloat("_G", _G.value);
         render.material.SetFloat("_B", _B.value);
+        render.material.SetFloat("_NormalAmount", _NormalAmount.value);
     }
 
 }
